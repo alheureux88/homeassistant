@@ -15,6 +15,7 @@ homeassistant:
 
 # Enables the frontend
 frontend:
+  javascript_version: latest
 
 # Enables configuration UI
 config:
@@ -24,6 +25,8 @@ http:
   base_url: !secret http_baseurl
   ssl_key: !secret http_key
   ssl_certificate: !secret http_cert
+  ip_ban_enabled: True
+  login_attempts_threshold: 3
 
 # Checks for available updates
 # Note: This component will send some information about your system to
