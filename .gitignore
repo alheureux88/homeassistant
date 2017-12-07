@@ -8,6 +8,10 @@
 .google.token
 .uuid
 .spotify-token-cache
+OZW_Log.txt
+options.xml
+zwscene.xml
+zwcfg_0xdaabcb64.xml
 icloud/
 google_calendars.yaml
 harmony_media_room.conf

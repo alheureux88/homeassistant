@@ -59,11 +59,14 @@ sun:
 tts:
   - platform: google
 
-group: !include groups.yaml
 script: !include scripts.yaml
+shell_command: !include shell.yaml
+zwave: !include components/zwave.yaml
+vacuum: !include components/vacuum.yaml
 
 sensor: !include_dir_merge_list components/sensor/
 notify: !include_dir_merge_list components/notify/
 media_player: !include_dir_merge_list components/media/
 automation: !include_dir_merge_list components/automation/
-shell_command: !include shell.yaml
+group: !include_dir_merge_named components/group/
+

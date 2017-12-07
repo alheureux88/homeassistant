@@ -1,0 +1,8 @@
+hydroquebec:
+  name: Hydro-Quebec
+  entities:
+    - sensor.hydroquebec_balance
+    - sensor.hydroquebec_period_total_bill
+    - sensor.hydroquebec_period_mean_daily_bill
+    - sensor.hydroquebec_period_total_days
+    - sensor.hydroquebec_period_length
