@@ -1,0 +1,3 @@
+- name: nma
+  platform: nma
+  api_key: !secret nma_key

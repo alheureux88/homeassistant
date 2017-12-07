@@ -1,0 +1,10 @@
+- platform: hydroquebec
+  username: !secret hydro_user
+  password: !secret hydro_password
+  contract: !secret hydro_contract
+  monitored_variables:
+    - balance
+    - period_total_bill
+    - period_length
+    - period_total_days
+    - period_mean_daily_bill
