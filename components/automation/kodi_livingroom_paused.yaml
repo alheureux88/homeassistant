@@ -1,0 +1,11 @@
+- alias: 'Light on kodi paused'
+  trigger:
+    - platform: state
+      entity_id: media_player.kodi_living_room
+      to: 'paused'
+  condition:
+  action:
+    service: light.turn_on
+    data:
+      entity_id: group.light_main
+      brightness_pct: 25

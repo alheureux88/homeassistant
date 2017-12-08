@@ -1,0 +1,10 @@
+- action:
+  - service: light.turn_off
+  alias: Kodi play
+  condition: []
+  id: '1512695201558'
+  trigger:
+  - entity_id: media_player.kodi_living_room
+    from: 'Off'
+    platform: state
+    to: 'On'

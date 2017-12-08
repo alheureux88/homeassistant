@@ -1,0 +1,10 @@
+- alias: 'Light off kodi playing'
+  trigger:
+    - platform: state
+      entity_id: media_player.kodi_living_room
+      to: 'playing'
+  condition:
+  action:
+    service: light.turn_off
+    entity_id: group.light_main
+ 
