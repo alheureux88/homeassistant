@@ -1,0 +1,15 @@
+sensor.bathroom_thermostat_temperature:
+  ignored: true
+  polling_intensity: 0
+sensor.bedroom_thermostat_temperature:
+  ignored: true
+  polling_intensity: 0
+sensor.dinning_thermostat_temperature:
+  ignored: true
+  polling_intensity: 0
+sensor.living_thermostat_temperature:
+  ignored: true
+  polling_intensity: 0
+sensor.office_thermostat_temperature:
+  ignored: true
+  polling_intensity: 0

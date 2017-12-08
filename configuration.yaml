@@ -70,3 +70,7 @@ media_player: !include_dir_merge_list components/media/
 automation: !include_dir_merge_list components/automation/
 group: !include_dir_merge_named components/group/
 
+google:
+  client_id: !secret google_clientid
+  client_secret: !secret google_secret
+

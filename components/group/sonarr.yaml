@@ -1,0 +1,6 @@
+sonarr:
+  name: Sonar grouping
+  entities:
+    - sensor.sonarr_upcoming
+    - sensor.sonarr_series
+    - sensor.sonarr_disk_space
