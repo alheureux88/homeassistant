@@ -1,0 +1,6 @@
+view_automation:
+  name: Automation
+  view: yes
+  entities:
+    - group.all_automations
+    - vacuum.xiaomi_vacuum_cleaner

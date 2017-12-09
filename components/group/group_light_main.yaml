@@ -1,0 +1,5 @@
+light_main:
+  name: Main room lights
+  entities:
+    - light.kitchen_switch_level
+    - light.dinning_switch_level

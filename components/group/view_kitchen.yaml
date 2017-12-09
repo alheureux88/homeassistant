@@ -1,0 +1,7 @@
+view_kitchen:
+  name: Kitchen
+  view: yes
+  entities:
+    - climate.dinning_thermostat_heating
+    - light.kitchen_switch_level
+    - light.dinning_switch_level

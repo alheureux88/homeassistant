@@ -1,7 +1,6 @@
 weather_daily_forecast:
   name: Daily Forecast
   entities:
-    - sensor.pws_weather_1d_metric
     - sensor.pws_weather_1n_metric
     - sensor.pws_weather_2d_metric
     - sensor.pws_weather_2n_metric

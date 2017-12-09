@@ -1,0 +1,8 @@
+view_tech:
+  name: Technology
+  view: yes
+  icon: mdi:lan
+  entities:
+    - group.sonarr
+    - sensor.ssl_cert_expiry
+    - group.hydroquebec

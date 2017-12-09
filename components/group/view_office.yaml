@@ -1,0 +1,6 @@
+view_office:
+  name: Office
+  view: yes
+  entities:
+    - climate.office_thermostat_heating
+    - light.office_switch_level

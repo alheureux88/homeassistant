@@ -1,0 +1,7 @@
+view_bedroom:
+  name: Bedroom
+  view: yes
+  entities:
+    - media_player.kodi_bedroom
+    - climate.bedroom_thermostat_heating
+    - light.bedroom_switch_light

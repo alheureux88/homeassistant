@@ -1,0 +1,8 @@
+thermostats:
+  name: Thermostats
+  entities:
+    - climate.living_thermostat_heating
+    - climate.dinning_thermostat_heating
+    - climate.bedroom_thermostat_heating
+    - climate.office_thermostat_heating
+    - climate.bathroom_thermostat_heating

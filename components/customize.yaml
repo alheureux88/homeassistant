@@ -1,0 +1,41 @@
+#Removing the auto hiding on non-defaulted view
+group.all_automations:
+  hidden: false
+
+group.all_lights:
+  hidden: false
+  
+group.groupdefault_view:
+  hidden: true
+  
+#icons
+sensor.lock_frontdoor_status:
+  icon: mdi:lock
+  
+sensor.lock_frontdoor_battery:
+  icon: mdi:battery-plus
+  
+#Ordering the view at the top of overview
+group.view_default:
+  order: 1
+
+group.view_security:
+  order: 2
+  
+group.view_tech:
+  order: 3
+
+group.view_kitchen:
+  order: 4
+  
+group.view_livingroom:
+  order: 5
+  
+group.view_bedroom:
+  order: 6
+  
+group.view_office:
+  order: 7
+  
+group.view_automation:
+  order: 8

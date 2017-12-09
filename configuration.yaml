@@ -11,7 +11,7 @@ homeassistant:
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: America/Toronto
   # Customization file
-  customize: !include customize.yaml
+  customize: !include components/customize.yaml
 
 # Enables the frontend
 frontend:
@@ -63,6 +63,7 @@ script: !include scripts.yaml
 shell_command: !include shell.yaml
 zwave: !include components/zwave.yaml
 vacuum: !include components/vacuum.yaml
+#mysensors: !include components/mysensors/mysensors.yaml
 
 sensor: !include_dir_merge_list components/sensor/
 notify: !include_dir_merge_list components/notify/

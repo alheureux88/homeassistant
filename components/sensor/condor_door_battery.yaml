@@ -1,0 +1,9 @@
+- platform: template
+  sensors:
+    lock_frontdoor_battery:
+      friendly_name: "Front door lock battery"
+      value_template: "{{ states.zwave.condodoor.attributes.battery_level }}"
+      unit_of_measurement: "%"
+    lock_frontdoor_status:
+      friendly_name: "Front door lock status"
+      value_template: "{{ states.lock.condodoor_locked.attributes.lock_status }}"

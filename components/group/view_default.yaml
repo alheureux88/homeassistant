@@ -1,0 +1,11 @@
+view_default:
+  view: yes
+  icon: mdi:home-assistant
+  entities:
+    - group.weather_today
+    - group.weather_daily_forecast
+    - group.players
+    - group.all_lights
+    - group.thermostats
+    
+group.default_view:
