@@ -63,7 +63,8 @@ script: !include scripts.yaml
 shell_command: !include shell.yaml
 zwave: !include components/zwave.yaml
 vacuum: !include components/vacuum.yaml
-#mysensors: !include components/mysensors/mysensors.yaml
+mysensors: !include components/mysensors/mysensors.yaml
+#cover: !include components/garagedoor.yaml
 
 sensor: !include_dir_merge_list components/sensor/
 notify: !include_dir_merge_list components/notify/

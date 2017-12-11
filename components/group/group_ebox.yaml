@@ -1,0 +1,10 @@
+ebox:
+  name: Internet Usage
+  entities:
+    - sensor.ebox_usage
+    - sensor.ebox_total
+    - sensor.ebox_download
+    - sensor.ebox_upload
+    - sensor.ebox_total_before_offpeak
+    - sensor.ebox_download_before_offpeak
+    - sensor.ebox_upload_before_offpeak

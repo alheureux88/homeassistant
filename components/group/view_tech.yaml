@@ -3,6 +3,7 @@ view_tech:
   view: yes
   icon: mdi:lan
   entities:
+    - group.ebox
     - group.sonarr
     - sensor.ssl_cert_expiry
     - group.hydroquebec

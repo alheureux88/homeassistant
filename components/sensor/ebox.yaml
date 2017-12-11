@@ -1,0 +1,11 @@
+- platform: ebox
+  username: !secret ebox_user
+  password: !secret ebox_password
+  monitored_variables:
+    - usage
+    - before_offpeak_total
+    - before_offpeak_download
+    - before_offpeak_upload
+    - total
+    - download
+    - upload
