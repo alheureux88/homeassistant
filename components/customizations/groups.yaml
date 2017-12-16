@@ -1,0 +1,9 @@
+#Removing the auto hiding on non-defaulted view
+group.all_automations:
+  hidden: false
+
+group.all_lights:
+  hidden: false
+  
+group.groupdefault_view:
+  hidden: true

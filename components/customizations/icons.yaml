@@ -1,0 +1,6 @@
+#icons
+sensor.lock_frontdoor_status:
+  icon: mdi:lock
+  
+sensor.lock_frontdoor_battery:
+  icon: mdi:battery-plus

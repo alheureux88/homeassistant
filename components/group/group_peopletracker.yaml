@@ -1,0 +1,5 @@
+people_tracker:
+  name: People tracker
+  entities:
+    - sensor.alex
+    - sensor.alex_status

@@ -11,7 +11,7 @@ homeassistant:
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: America/Toronto
   # Customization file
-  customize: !include components/customize.yaml
+  customize: !include_dir_merge_named components/customizations
 
 # Enables the frontend
 frontend:
@@ -59,12 +59,25 @@ sun:
 tts:
   - platform: google
 
+mqtt:
+
+input_select:
+  alex_status_dropdown:
+    name: Alex
+    options:
+      - Home
+      - Just Arrived
+      - Just Left
+      - Away
+      - Extended Away
+    initial: Home
+
 script: !include scripts.yaml
 shell_command: !include shell.yaml
 zwave: !include components/zwave.yaml
 vacuum: !include components/vacuum.yaml
 mysensors: !include components/mysensors/mysensors.yaml
-#cover: !include components/garagedoor.yaml
+cover: !include components/garagedoor.yaml
 
 sensor: !include_dir_merge_list components/sensor/
 notify: !include_dir_merge_list components/notify/

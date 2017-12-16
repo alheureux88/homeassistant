@@ -1,5 +1,5 @@
-locks:
-  name: Locks
+lock_garage:
+  name: Garage door lock
   entities:
     - lock.condodoor_locked
     - sensor.lock_frontdoor_status

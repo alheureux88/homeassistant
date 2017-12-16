@@ -1,0 +1,6 @@
+lock_front:
+  name: Condo door lock
+  entities:
+    - lock.condodoor_locked
+    - sensor.lock_frontdoor_status
+    - sensor.lock_frontdoor_battery

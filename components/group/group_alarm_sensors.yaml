@@ -1,0 +1,10 @@
+alarm_sensors:
+  name: Systeme d'alarme
+  entities:
+    - binary_sensor.alarm_system_1_5
+    - binary_sensor.alarm_system_1_8
+    - binary_sensor.alarm_system_1_4
+    - binary_sensor.alarm_system_1_6
+    - binary_sensor.alarm_system_1_3
+    - binary_sensor.alarm_system_1_7
+    

@@ -1,5 +1,7 @@
 # Created by https://www.gitignore.io/api/homeassistant
-
+.vscode/*
+.history
+deps
 ### HomeAssistant ###
 # Files with personal details
 *.crt

@@ -1,0 +1,13 @@
+- platform: mqtt_room
+  device_id: '7b22a38ef67d453ea3030f7b726df6e5-1-1'
+  name: 'Alex'
+  state_topic: 'room_presence'
+  timeout: 5
+  away_timeout: 60
+
+- platform: template
+  sensors:
+    alex_status:
+      value_template: '{{ states.input_select.alex_status_dropdown.state }}'
+      friendly_name: 'Alex'
+      entity_id: input_select.alex_status_dropdown

@@ -2,4 +2,7 @@ view_security:
   view: yes
   icon: mdi:security-home
   entities:
-    - group.locks
+    - group.lock_front
+    - group.lock_garage
+    - group.alarm_sensors
+    - group.people_tracker
