@@ -1,0 +1,33 @@
+- platform: rpi_rf
+  gpio: 26
+  switches:
+    zap_switch_1:
+      code_on: 4543795
+      code_off: 4543804
+      pulselength: 150
+      protocol: 1
+      signal_repetitions: 3
+    zap_switch_2:
+      code_on: 4543939
+      code_off: 4543948
+      pulselength: 150
+      protocol: 1
+      signal_repetitions: 3
+    zap_switch_3:
+      code_on: 4544259
+      code_off: 4544268
+      pulselength: 150
+      protocol: 1
+      signal_repetitions: 3
+    zap_switch_4:
+      code_on: 4545795
+      code_off: 4545804
+      pulselength: 150
+      protocol: 1
+      signal_repetitions: 3
+    zap_switch_5:
+      code_on: 4551939
+      code_off: 4551948
+      pulselength: 150
+      protocol: 1
+      signal_repetitions: 3

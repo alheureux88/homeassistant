@@ -37,20 +37,27 @@ updater:
   # Optional, allows Home Assistant developers to focus on popular components.
   # include_used_components: true
 
+logger:
+  default: warn
+  logs:
+    miio.device: critical
+
 # Discover some devices automatically
-discovery:
+# discovery:
+
+cloud:
 
 # Allows you to issue voice commands from the frontend in enabled browsers
-conversation:
+#conversation:
 
 # Enables support for tracking state changes over time
 history:
 
 # View all events in a logbook
-logbook:
+#logbook:
 
 # Enables a map showing the location of tracked devices
-map:
+#map:
 
 # Track the sun
 sun:
@@ -58,8 +65,6 @@ sun:
 # Text to speech
 tts:
   - platform: google
-
-mqtt:
 
 input_select:
   alex_status_dropdown:
@@ -71,21 +76,34 @@ input_select:
       - Away
       - Extended Away
     initial: Home
+  log_level:
+    name: Log Level
+    options:
+      - critical
+      - fatal
+      - error
+      - warning
+      - warn
+      - info
+      - debug
+      - notset
+    initial: warn
 
 script: !include scripts.yaml
-shell_command: !include shell.yaml
 zwave: !include components/zwave.yaml
 vacuum: !include components/vacuum.yaml
 mysensors: !include components/mysensors/mysensors.yaml
-cover: !include components/garagedoor.yaml
+#cover: !include components/garagedoor.yaml
 
 sensor: !include_dir_merge_list components/sensor/
 notify: !include_dir_merge_list components/notify/
 media_player: !include_dir_merge_list components/media/
 automation: !include_dir_merge_list components/automation/
 group: !include_dir_merge_named components/group/
+switch: !include_dir_merge_list components/switch/
+shell_command: !include_dir_merge_named components/shell/
 
-google:
-  client_id: !secret google_clientid
-  client_secret: !secret google_secret
+#google:
+#  client_id: !secret google_clientid
+#  client_secret: !secret google_secret
 

@@ -1,0 +1,10 @@
+switch.zap_switch_1:
+  friendly_name: Living room light
+switch.zap_switch_2:
+  friendly_name: zap_switch_2
+switch.zap_switch_3:
+  friendly_name: zap_switch_3
+switch.zap_switch_4:
+  friendly_name: zap_switch_4
+switch.zap_switch_5:
+  friendly_name: Front door light
